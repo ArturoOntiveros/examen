@@ -1,0 +1,103 @@
+body{
+	background: url(wallpaper.jpg);
+}
+
+.container{
+	position: relative;
+}
+
+.titulo {
+	color: white;
+	margin: auto;
+	text-align: center;
+	position: static;
+}
+
+.menu{
+	background: url(menu.gif);
+	position: fixed;
+	float: right;
+	right: 0;
+	padding: 0;
+	margin-top:-2%;
+	z-index: 1;
+	background-size: cover;
+}
+
+.row {
+    display: table;
+    box-sizing: border-box;
+}
+
+.fila {
+    float: left;
+    display: table-cell;
+    padding: 10px;
+}
+
+img {
+    width: 100%;
+}
+
+div.desc {
+    padding: 7px;
+    text-align: center;
+    background-color: #C2963A;
+    color: white;
+    font-family: Arialf;
+}
+
+
+.texto_blanco{
+	color: white;
+}
+
+.texto_negro{
+	color: black;
+}
+
+.footer {
+    width: 80vw;
+    height: 30px;
+    margin: auto;
+    background-color: #121212;
+    text-align: center;
+    padding-top: 5px;
+}
+
+#viajes{
+    background: url('viajes.gif') center no-repeat;
+    background-size: cover;
+}
+
+#tecnologia{
+    background: url('tecnologia.gif') center no-repeat;
+    background-size: cover;
+}
+
+#ciencia{
+    background: url('ciencia.gif') center no-repeat;
+    background-size: cover;
+}
+
+#cultura{
+    background: url('cultura.gif') center no-repeat;
+    background-size: cover;
+}
+
+.foto {
+    width: 15vw;
+    height: 11vw;
+    margin: 15px;
+    display: inline-block;
+ }
+
+ .nombre {
+    margin-top: 60%;
+    text-align: center;
+    width: 100%;
+    background-color: rgba(0,0,0,0.8);
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: 400;
+}
